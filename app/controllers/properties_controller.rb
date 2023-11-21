@@ -24,4 +24,11 @@ class PropertiesController < ApplicationController
     )
     render :show
     end
+
+  def destroy
+    property = Property.find_by(id: params["id"])
+    property.destroy
+
+    render json: {message: "property gone!"}
+  end
 end
