@@ -5,3 +5,5 @@ Property.create!([
   {description: "Mini mansion in the heart of LA", year_built: "1978", square_feet: "12,800", bedrooms: "6", bathrooms: "5", availability: "January 2024", address: "730 Linden Avenue, Los Angeles, CA 90004", price: "3700000.0"},
   {description: "Gorgeous home for those who love the outdoors", year_built: "2002", square_feet: "7,000", bedrooms: "3", bathrooms: "3", availability: "March 2023", address: "2432 Hacienda Boulevard, Los Angeles, CA 90302", price: "1200000.0"}
 ])
+
+# property = Property.create(description: "Nice house", year_built: "2014", square_feet: "1,050", bedrooms: "2", bathrooms: "2", availability: "Now", price: "800000")
