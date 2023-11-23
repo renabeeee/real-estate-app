@@ -6,5 +6,7 @@ Rails.application.routes.draw do
 
   post "/properties" => "properties#create"
 
+  patch "/properties/:id" => "properties#update"
+
   delete "/properties/:id" => "properties#destroy"
 end
